@@ -15,7 +15,11 @@ export default function HomePage(props){
                 )}
         </ul>
         <p>Loaded data from firebase:</p>
-        <Link href="/last-sales/">/last-sales</Link>
+        <Link href="/last-sales-useEffect/">/last-sales-useEffect</Link>
+        <br/>
+        <Link href="/last-sales-useSWR/">/last-sales-useSWR</Link>
+        <p>Loaded data from firebase: client-side useSWR and server-side prerendering</p>
+        <Link href="/last-sales-useSWR-prerendering/">/useSWR and getStaticProps</Link>
         </>
     )
 }
